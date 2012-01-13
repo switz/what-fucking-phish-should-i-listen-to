@@ -1,0 +1,9 @@
+{
+    "name": "What Fucking Phish Should I Listen To?"
+  , "version": "0.0.1"
+  , "private": true
+  , "dependencies": {
+      "express": "2.5.4"
+    , "jade": ">= 0.0.1"
+  }
+}

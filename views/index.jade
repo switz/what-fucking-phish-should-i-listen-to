@@ -1,0 +1,60 @@
+header
+	a(href='/') What Fucking Phish Should I Listen To?
+#container
+		hr
+		#content-wrap
+			#prelude
+				#{prelisten}
+				a(href='http://spreadsheets.google.com/pub?key=p8WKkpP-TKpO1VnQgcff6EQ&amp;gid=#{spreadsheet}') Listen
+				|	to this fucking show...
+			#content
+				#date-venue-container
+					a(href='#{showurl}') #{showdate}
+					#venue-container
+						a.venue(href='http://phish.net/venue/#{venueid}') #{venue}
+				.setlist
+					!{setlist}
+			.links
+				a(href='/') I don't wanna fucking listen to that show
+				br
+				a(href='/?point') I don't wanna fucking listen to #{pointoh}
+			span.attribution.left
+				| Created by
+				a(href='http://www.saewitz.com/') Daniel Saewitz
+				|	and 
+				a(href='http://twitter.com/tmwsiy') Parker Harrington
+			span.attribution.right
+				| Powered by
+				img(src='http://img811.imageshack.us/img811/3669/minipnet.png', alt='')
+				| 
+				a(href='http://www.Phish.net') Phish.net
+				br
+				| Setlist Data &#169;
+				a(href='http://mbird.org') The Mockingbird Foundation
+				|	1990-2012
+		hr(style='margin-top: .2em; margin-bottom: .3em;')
+footer
+	| Some Fucking Links: 
+	a(href='#{random1Link}') #{random1}
+	|	&#183; 
+	a(href='#{random2Link}') #{random2}
+	|	&#183; 
+	a(href='#{random3Link}') #{random3}
+	|	&#183; 
+	a(href='#{random4Link}') #{random4}
+	|	&#183; 
+	a(href='javascript:alert(\'What are you a fucking idiot?\')') How do I use this?
+	span.right
+		| Inspired by
+		a(href='http://whatthefuckshouldimakefordinner.com/') this
+		|	& 
+		a(href='http://whatthefuckshouldidrinktonight.com/') this
+script(type='text/javascript')
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-28079980-1']);
+	_gaq.push(['_trackPageview']);
+	(function() {
+	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();

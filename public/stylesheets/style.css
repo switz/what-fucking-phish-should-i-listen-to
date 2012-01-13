@@ -1,0 +1,91 @@
+body {
+	width: 800px;
+	margin: auto;
+	color: black;
+	font-family: Helvetica, sans-serif;
+	font-weight: bold;
+}
+a,  a:visited,  a:active, button {
+	color: #000000;
+	text-decoration: none;
+}
+a:hover, button:hover {
+	color: #FFFFFF;
+	background: #000000;
+}
+button {
+	background: transparent;
+	border: none;
+	font-size: 1em;
+	font-weight: bold;
+	font-family: Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+hr {
+	height: 5px;
+	background: #000000;
+	border: none;
+}
+header {
+	font-size: 2.5em;
+	text-align: center;
+}
+#container {
+	font-size: 1.5em;
+}
+#container div {
+	padding-bottom: 10px;
+}
+#container span.attribution {
+	font-size: .5em;
+	position: absolute;
+	bottom: 0;
+}
+#container span.attribution.left {
+	text-align: left;
+	left: 0;
+}
+#container span.attribution.right {
+	text-align: right;
+	right: 0;
+}
+#content-wrap {
+	position: relative;
+}
+#prelude {
+	font-size: 2em;
+}
+#content {
+	font-size: 2.5em;
+}
+#content #date-venue-container {
+	position: relative;
+	height: 1em;
+	padding: 0;
+}
+#content #venue-container {
+	width: 450px;
+	height: 1em;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	padding: 0;
+}
+#content .venue {
+	font-size: .3em;
+	text-align: right;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+#content .setlist {
+	font-size: .25em;
+	padding-top: 10px;
+}
+footer {
+	font-size: .75em;
+}
+span.right {
+	float: right;
+}
